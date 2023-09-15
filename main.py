@@ -4,6 +4,7 @@ import sys
 from time import sleep
 from zeroconf import IPVersion, ServiceInfo, Zeroconf
 
+
 def register_services(services):
     zeroconf = Zeroconf(ip_version=IPVersion.V4Only)
     service_infos = []
@@ -34,6 +35,7 @@ def register_services(services):
 
     return zeroconf, service_infos
 
+
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
@@ -55,6 +57,7 @@ def main():
         for service_info in service_infos:
             zeroconf.unregister_service(service_info)
         zeroconf.close()
+
 
 if __name__ == "__main__":
     main()
