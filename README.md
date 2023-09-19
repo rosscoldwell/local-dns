@@ -1,7 +1,9 @@
-# This is my DNS SHIET 
+# Local DNS - Readme 
 
-boi 
+This project is designed to allow me to access local network devices using .local addresses rather than IP addresses. 
 
-bullet points:
+Current supported devices:
 
-* boi
+* TrueNAS - nas.local
+* Proxmox - proxmox.local
+* HP iLO - ilo.local
