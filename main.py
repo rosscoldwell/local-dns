@@ -41,7 +41,7 @@ def main():
 
     services = {
         "nas": "192.168.0.245",
-        "ilo": "192.168.0.248"
+        "ilo": "192.168.0.248",
         "proxmox": "192.168.0.150",  # port 8006
         # Add more hostnames and IP addresses as needed
     }
