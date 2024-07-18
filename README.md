@@ -2,8 +2,4 @@
 
 This project is designed to allow me to access local network devices using .local addresses rather than IP addresses. 
 
-Current supported devices:
-
-* TrueNAS - nas.local
-* Proxmox - proxmox.local
-* HP iLO - ilo.local
+The tool will look-up device addresses based on a csv file held in the project, with an overnight refresh functionality to check for changes. 
