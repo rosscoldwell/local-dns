@@ -6,7 +6,7 @@ import pandas as pd
 import schedule
 import time
 
-CSV_URL = 'https://raw.githubusercontent.com/rosscoldwell/local-dns/services.csv'
+CSV_URL = 'https://raw.githubusercontent.com/rosscoldwell/local-dns/main/services.csv'
 
 def read_services_from_csv(csv_url):
     services = {}
